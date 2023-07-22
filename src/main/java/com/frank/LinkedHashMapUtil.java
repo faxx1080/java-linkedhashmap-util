@@ -3,7 +3,9 @@ package com.frank;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class LinkedHashMapUtil<K, V> {
+public class LinkedHashMapUtil {
+
+    private LinkedHashMapUtil () {}
 
     public static <K, V> LinkedHashMap<K, V> of(K k1, V v1) {
         var lhm = new LinkedHashMap<K, V>();
